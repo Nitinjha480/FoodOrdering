@@ -25,7 +25,7 @@ body {
 
 .navbar::after {
     content: "";
-    background-image: url("/img/bg.jpg");
+    background-image: url("https://nitinjha480.github.io/FoodOrdering/img/bg.jpg");
     position: absolute;
     left: 0;
     width: 100vw;
@@ -84,7 +84,7 @@ body {
     margin-top: 50px;
     font-weight: bolder;
     font-size: large;
-    background-image: url("/img/clients.jpg");
+    background-image: url("https://nitinjha480.github.io/FoodOrdering/img/clients.jpg");
 }
 
 #contact {
@@ -94,7 +94,7 @@ body {
 
 #contact::before {
     content: "";
-    background-image: url("/img/clients.jpg");
+    background-image: url("https://nitinjha480.github.io/FoodOrdering/img/clients.jpg");
     position: absolute;
     width: 100vw;
     height: 60%;
