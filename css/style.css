@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100vw;
+}
+
+.navbar::before {
+
+    content: "";
+    /* background-image: url("/img/bg.jpg"); */
+    background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 14%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.navbar::after {
+    content: "";
+    background-image: url("/img/bg.jpg");
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 75vh;
+    z-index: -2;
+    opacity: 10;
+}
+
+.navbar a img {
+    padding: 15px 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    width: 20vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -26px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover::before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 3%;
+    border-bottom: 2px solid blueviolet;
+}
+
+#home {
+    color: lightslategray;
+    margin-top: 40px;
+}
+
+#home h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#home h4 {
+    width: 50%;
+    margin-top: -10px;
+}
+
+#services {
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#clients {
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: large;
+    background-image: url("/img/clients.jpg");
+}
+
+#contact {
+    font-weight: bolder;
+    font-size: large;
+}
+
+#contact::before {
+    content: "";
+    background-image: url("/img/clients.jpg");
+    position: absolute;
+    width: 100vw;
+    height: 60%;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#contact button{
+    margin-top: 5px;
+}
+
+#contact form input {
+    margin-top: 8px;
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    width: 500px;
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+}
+
+#contact form textarea {
+    margin-top: 8px;
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    width: 515px;
+    height: 83px;
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+}
+
+#contact form textarea:focus {
+    outline: 3px solid blueviolet;
+}
+
+#contact form input:focus {
+    outline: 3px solid blueviolet;
+}
+
+#clients h1::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 6%;
+    margin-left: 10px;
+    border-bottom: 2px solid blueviolet;
+}
+
+#contact h1::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 6%;
+    margin-left: 10px;
+    border-bottom: 2px solid blueviolet;
+}
+
+#services h1::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 6%;
+    margin-left: 10px;
+    border-bottom: 2px solid blueviolet;
+}

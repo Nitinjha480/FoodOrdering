@@ -1,0 +1,95 @@
+@media (max-width: 1056px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        margin-left: -17px;
+        margin-top: -11px;
+    }
+
+    .navbar::before {
+        height: 21%;
+    }
+
+    #home {
+        margin-top: -8px;
+    }
+}
+
+@media (max-width:1004px) {
+    .navbar ul {
+        width: 30vw;
+    }
+}
+@media (max-width: 852px) {
+    .card-handler{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-top: 10px;
+    }
+    #contact::before{
+        height: 70%;
+    }
+    #contact form input{
+        width: 300px;
+    }
+    #contact form textarea{
+        width:315px;
+    }
+    .col{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:622px) {
+    .navbar ul {
+        width: 40vw;
+    }
+    #contact form input{
+        width: 200px;
+    }
+    #contact form textarea{
+        width:215px;
+    }
+}
+
+@media (max-width:448px) {
+    .navbar ul {
+        width: 60vw;
+    }
+
+    #home h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navbar::after {
+        height: 80vh;
+    }
+
+    #home {
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 492px) {
+    #services {
+        margin-top: 10px;
+    }
+    .navbar::after {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 286px) {
+    #services {
+        margin-top: 25px;
+    }
+    .navbar::after {
+        height: 110vh;
+    }
+}

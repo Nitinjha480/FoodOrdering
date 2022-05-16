@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website CSS</title>
+    <link rel="stylesheet" href="css/utilits.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="https://codewithharry.com/img/logo-blue.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar flex">
+        <a href="/">
+            <img src="https://codewithharry.com/img/logo-blue.png" class="logo">
+        </a>
+        <ul class="flex">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#clients">Client</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="flex flex-col item-center">
+        <h1>Welcome to my Website</h1>
+        <h4 class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur corrupti eius,
+            nisi cumque suscipit placeat totam quisquam impedit eaque quia aspernatur eum blanditiis sint vitae non
+            nesciunt veniam delectus.</h4>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services" class="flex flex-col item-center">
+        <h1>Our Services</h1>
+        <div class="card-handler flex flex-row space-between">
+            <div class="card flex flex-col">
+                <img src="img/pizza.png">
+                <h4>Food Ordering</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel incidunt voluptatibus officia at
+                    provident fugiat error blanditiis ducimus nisi velit. Ducimus laboriosam cumque, temporibus omnis
+                    aliquid quis voluptas doloremque nam.
+                </p>
+            </div>
+            <div class="card flex flex-col">
+                <img src="img/catering.png">
+                <h4>Catering</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci recusandae iste. Deserunt,
+                    ducimus inventore quae iusto delectus iure nostrum ipsum rerum, necessitatibus voluptatum quis
+                    exercitationem molestias ullam illo nesciunt!</p>
+            </div>
+            <div class="card flex flex-col">
+                <img src="img/Delivery.png">
+                <h4>Bulk Ordering</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente qui facilis, fugit quo adipisci
+                    voluptatibus, sint ipsa nostrum eaque ea eius debitis odio minus molestiae temporibus! Nihil error
+                    aliquam quia!</p>
+            </div>
+        </div>
+    </section>
+    <section id="clients" class="flex flex-col item-center">
+        <h1>Our Clients</h1>
+        <div class="flex col">
+            <div class="flex">
+                <img src="img/apple.png" class="logo2">
+            <img src="img/skype.png" class="logo2">
+            </div>
+            <div class="flex">
+                <img src="img/microsoft.png" class="logo2">
+            <img src="img/HP.png" class="logo2">
+            </div>
+        </div>
+        <div class="flex col">
+            <img src="img/microsoft.png" class="logo2">
+            <img src="img/HP.png" class="logo2">
+            <img src="img/skype.png" class="logo2">
+        </div>
+    </section>
+
+    <section id="contact" class="flex flex-col item-center">
+        <form action="" class="flex flex-col item-center">
+            <h1>Our Contact</h1>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="phone" placeholder="Phone">
+            <textarea name="message" id="message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
